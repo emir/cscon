@@ -1,0 +1,22 @@
+{
+    "name": "emir/cscon",
+    "description": "example project",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "swiftmailer/swiftmailer": "6.0.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Emir Karşıyakalı",
+            "email": "emirkarsiyakali@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {"Emir\\": "src/"}
+    }
+}
