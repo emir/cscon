@@ -6,4 +6,5 @@ $hesap = new \Emir\Hesap(
     new \Emir\Topla()
 );
 
+//Dummy
 echo $hesap->yap();
